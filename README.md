@@ -18,16 +18,18 @@
 
 ## What I work on
 
-- **Observability**: splitting shared CloudWatch log groups into one group per service, so logs are easier to search, secure and cost-track.
-- **Real-time**: moving a portal's WebSocket layer onto API Gateway WebSocket.
-- **Platform hygiene**: dependency and vulnerability reviews (Dependabot, outdated packages) across Node.js services.
-- **Delivery**: CI/CD pipelines, release reviews, and PRs with test evidence attached.
-- **Compliance**: analysing privacy and consent issues for analytics integrations.
+- **Mobile app security**: certificate pinning, root/jailbreak/hook/tamper detection, emulator blocking and OTP login hardening for Android and iOS apps.
+- **Web portals (Angular)**: AWS Amplify v6 authentication, AOT and esbuild builds, local-dev proxies and safe staging setups for multi-tenant back-office portals.
+- **Node.js and PHP services**: migrating search and export endpoints to Node.js, restricting CORS, hiding server version headers, local PostgreSQL upgrades.
+- **Observability**: one CloudWatch log group per service, so logs are easier to search, secure and cost-track.
+- **Real-time**: moving portal WebSockets onto API Gateway WebSocket.
+- **Platform hygiene**: dependency and vulnerability fixes, leaked-secret clean-ups, Dependabot reviews.
+- **Delivery**: CI/CD, release reviews, and PRs with test evidence attached.
 
 ## Tech stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,php,aws,github,githubactions,docker,git,linux&perline=8" />
+  <img src="https://skillicons.dev/icons?i=ts,angular,nodejs,php,postgres,aws,androidstudio,github,githubactions,git&perline=10" />
 </p>
 
 ## How I like to work
@@ -36,12 +38,5 @@
 - Root cause over symptom fixes.
 - Measure first, then change.
 - Write down decisions, so the next person doesn't have to guess.
-
-## Stats
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=tan-nguyen-seamless&show_icons=true&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tan-nguyen-seamless&layout=compact&hide_border=true" />
-</p>
 
 <sub>Banner by <a href="https://github.com/demartini/demartini">Iolar Demartini Junior</a> (MIT License).</sub>
