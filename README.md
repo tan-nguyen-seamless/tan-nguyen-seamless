@@ -18,18 +18,17 @@
 
 ## What I work on
 
-- **Mobile app security**: certificate pinning, root/jailbreak/hook/tamper detection, emulator blocking and OTP login hardening for Android and iOS apps.
-- **Web portals (Angular)**: AWS Amplify v6 authentication, AOT and esbuild builds, local-dev proxies and safe staging setups for multi-tenant back-office portals.
-- **Node.js and PHP services**: migrating search and export endpoints to Node.js, restricting CORS, hiding server version headers, local PostgreSQL upgrades.
-- **Observability**: one CloudWatch log group per service, so logs are easier to search, secure and cost-track.
-- **Real-time**: moving portal WebSockets onto API Gateway WebSocket.
-- **Platform hygiene**: dependency and vulnerability fixes, leaked-secret clean-ups, Dependabot reviews.
-- **Delivery**: CI/CD, release reviews, and PRs with test evidence attached.
+- **Legacy migration**: moving PHP endpoints to NestJS with a golden-master approach (locked tests, mutation testing, shadow runs), packaged as a Claude Code plugin.
+- **Security**: mobile app hardening (React Native), CORS allow-lists, dependency patching, safer response headers.
+- **Auth and web**: Angular portals on AWS Amplify v6 with full Cognito MFA support; AOT and esbuild builds.
+- **Infrastructure**: Aurora PostgreSQL upgrade planning, per-service CloudWatch logging.
+- **Architecture**: cross-stack work on identity context and tenant data isolation across .NET, Node.js and the API gateway.
+- **AI-assisted delivery**: Claude Code skills for PRs and review, agent-driven end-to-end testing on browser, emulator and real devices.
 
 ## Tech stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,angular,nodejs,php,postgres,aws,androidstudio,github,githubactions,git&perline=10" />
+  <img src="https://skillicons.dev/icons?i=ts,angular,react,nestjs,nodejs,php,postgres,aws,androidstudio,github,githubactions,git&perline=10" />
 </p>
 
 ## How I like to work
